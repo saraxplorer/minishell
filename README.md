@@ -1,5 +1,8 @@
 
-### Initial Steps
+### READme In progress
+
+
+***main will basically get divided into 2 parts- parsing and execution. In main the following functions are to be used***\
 
 **1. readline**
 ```
@@ -57,5 +60,8 @@ int main(int argc, char **argv, char **envp)
 ```
 Now, multiple inputs can be given and using up/down arrow, previous commands can be seen. Library header readline/history.h needs to be included for compiling.
 
-3. Copy the envp so that we dont mess up with the actual envp
-4. Make custom env, unset and export function
+Now main calls parsing in this stage which will process the input.
+Then main calls the execution part.
+
+***Execution***
+
