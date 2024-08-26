@@ -66,6 +66,7 @@ Then main calls the execution part.
 ***Execution***
 
 **getcwd**
+#include <unistd.h>
 char *getcwd(char *__buf, size_t __size)
 
 **Purpose:** getcwd gets the path of the current working directory (where your program is running) and stores it in a buffer.
