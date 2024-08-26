@@ -2,7 +2,7 @@
 ### READme In progress
 
 
-***main will basically get divided into 2 parts- parsing and execution. In main the following functions are to be used***\
+***main will basically get divided into 2 parts- parsing and execution. In main the following functions are to be used***
 
 **1. readline**
 ```
