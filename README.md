@@ -65,3 +65,17 @@ Then main calls the execution part.
 
 ***Execution***
 
+**getcwd**
+char *getcwd(char *__buf, size_t __size)
+
+**Purpose:** getcwd gets the path of the current working directory (where your program is running) and stores it in a buffer.
+
+**Parameters:**
+
+__buf: A buffer (array) where the path will be stored. If __buf is NULL, getcwd will allocate memory for you.\
+__size: The size of the buffer. If __buf is NULL and __size is 0, getcwd will allocate just enough memory to fit the path.\
+
+**Return Value:**
+
+Returns the buffer (__buf) containing the path if successful.
+Returns NULL if it fails (e.g., if the buffer is too small or there's another error).
